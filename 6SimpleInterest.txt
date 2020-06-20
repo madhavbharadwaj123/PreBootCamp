@@ -1,0 +1,22 @@
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+inp.on("line", (data) => {
+ userInput.push(data);
+});
+inp.on("close", () => {
+
+//start-here
+
+
+ let a = userInput[0].split(" ");
+  p = parseFloat(a[0]);
+  t = parseFloat(a[1]);
+  r = parseFloat(a[2]);
+  i = (p*t*r/100).toFixed(2)
+ 	console.log(i)
+
+//end-here
+});
