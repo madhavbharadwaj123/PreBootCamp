@@ -1,0 +1,5 @@
+let l = 10
+let w = 20
+let h = 30
+let v = (l*w*h)/3
+console.log(v)
