@@ -1,0 +1,4 @@
+let s = 'str'
+let b = true
+let c = undefined 
+let n = null
