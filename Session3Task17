@@ -1,0 +1,14 @@
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src='script.js'></script>
+</body>
+</html>
+
+
+
+script.js
+for (let num = 2; num <= 20; num += 2) {
+  console.log(num)
+}
