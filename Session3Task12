@@ -1,0 +1,23 @@
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src='script.js'></script>
+</body>
+</html>
+
+
+
+
+script.js
+let message;
+if (null || 2 || undefined )
+{
+ message = "welcome boss";
+}
+else
+{
+ message = "Go away";
+}
+  console.log(message);
