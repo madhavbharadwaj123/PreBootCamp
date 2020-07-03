@@ -1,0 +1,17 @@
+explain var lemein = “0”;
+var lemeout = 0;
+var msg = “”;
+if (lemein) {
+ msg += “hi”;
+ }
+if (lemeout) {
+ msg += ‘Hello’;
+}
+console.log(msg);
+
+
+
+
+explanation:
+
+string with length greater than 0 is considered to be true so the output will be hi
