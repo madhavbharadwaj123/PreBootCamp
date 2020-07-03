@@ -1,0 +1,18 @@
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+script.js
+let i = 3;
+while (i) {
+  console.log( i-- );
+}
