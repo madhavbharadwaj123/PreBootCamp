@@ -1,0 +1,13 @@
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+script.js
+let fname = "Guvi"
+let lname = "geek"
+let admin = fname+" "+lname;
+alert(admin); 
