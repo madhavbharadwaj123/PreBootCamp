@@ -1,0 +1,19 @@
+
+
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js'></script>
+</body>
+</html>
+
+
+
+
+script.js
+
+let a = parseInt(prompt("First number?"));
+let b = parseInt(prompt("Second number?"));
+alert(a + b);
