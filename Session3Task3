@@ -1,0 +1,24 @@
+explain.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+
+
+script.js
+alert("I'm JavaScript!");
+alert('Hello') // this line is not having semicolon
+alert(`Wor
+ ld`)
+alert(3 +
+1
++ 2); // this is multiple line code and its working
+
+
+explanation:
+first as soon as src sees script.js it will go and executing the instructions defined in script.js file and the first one line has valid syntax so it wont face a problem
+and the second line has no problem because ';' is not mandatory to represent a end of line in javascript, and third line works well because '' can be used to represent multiline string
+and the fourth alert also wont face a problem because a parameter inside the brackets of a function can be represented in multiple lines
