@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js'></script>
+</body>
+</html>
+
+
+
+script.js
+var a = 2 > 12;
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
