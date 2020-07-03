@@ -1,0 +1,6 @@
+let firstname = 'ABCD'
+let lastname = 'FCD' 
+let maritalstatus = 'unmarried'
+let country = 'india'
+let age = 29
+console.log(firstname,lastname,maritalstatus,country,age)
