@@ -1,0 +1,12 @@
+myobject = {1:one,”11":1,”name”:”arun”}
+console.log(myobject.11); 
+console.log(myobject.name);
+
+
+output:
+Uncaught SyntaxError: Invalid or unexpected token
+undefined 
+undefined
+
+if we use let myobject = {1:one,”11":1,”name”:”arun”}
+the we get one is not defined
