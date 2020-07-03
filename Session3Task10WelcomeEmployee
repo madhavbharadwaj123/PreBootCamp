@@ -1,0 +1,17 @@
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+script.js
+let login = 'Employee';
+let message = (login == 'Employee') ?'welcome the Employee' :(login == 'Director') ? 'Greetings' :(login == '') ? 'No login' :'';
+console.log(message);
