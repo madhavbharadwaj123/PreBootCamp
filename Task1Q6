@@ -1,0 +1,4 @@
+let n = '5'
+console.log(parseInt(n))
+console.log(Number(n))
+console.log(+n)
