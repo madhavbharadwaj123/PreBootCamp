@@ -1,0 +1,15 @@
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+script.js
+for(let num =1;num<11;num++)
+{
+  console.log(num)
+}
