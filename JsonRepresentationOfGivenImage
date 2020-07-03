@@ -1,0 +1,56 @@
+let myobject = {
+	'Dimensions':{
+		'overalllength':3500,
+		'overallwidth':1600,
+		'overallheight':1490,
+		'wheelbase':2360,
+		'trackwidth':{
+			'front':1405,
+			'rear':1400,
+				},
+		'minimumturningradius':4.5,
+		'minimumgroundclearance':170,
+			},
+	'Capacities':{
+		'seatingcapacity':5,
+		'fueltankcapacity':35,
+	},
+'Engine':{
+	'Type':'KB-Series',
+	'NumberOfCylinders':3,
+	'NumberOfValues':12,
+	'Capacity':998,
+	'Bore x stroke':'73.0 x 79.5',
+	'compressionratio':'10:1',
+	'Minimumpower':'67/6200',
+	'Minimumtoruqe':'90/3,500',
+	'FuelDistrubution':'MultipointInjection',
+},
+'Transmission':{
+	'Type':'5-speed MT',
+},
+'Chassis':{
+	'Sleeping':'Rack & Pinion, Power assisted',
+	'Brakes': {
+		'Front':'Ventillaed discs',
+		'Rear':'Drums',
+		},
+	'Suspension':{
+		'Front':'<ac[jersion srew & coil spring',
+		'Rear':'Isolated trailing link & coil spring',
+		},
+	'shockabsorbers': 'Gas filled',
+	'Tyre(tubeless)': '155/80R13',
+},
+'Weights':{
+	'Kerb weight(min with full options)':'860-880',
+	'Gross vehicle weights':1320,
+	},
+		}
+
+
+console.log(myobject)
+
+
+
+
